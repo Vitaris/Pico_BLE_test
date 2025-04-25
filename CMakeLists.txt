@@ -9,7 +9,6 @@ pico_sdk_init()
 add_executable(pico_ble_test
     pico_ble_test.c
     lcd.c
-    button.c
 )
 
 # enable usb output, disable uart output
